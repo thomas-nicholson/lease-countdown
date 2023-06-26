@@ -19,6 +19,6 @@ let x = setInterval(function() {
     document.getElementById("days").innerHTML = "";
     document.getElementById("hours").innerHTML = "";
     document.getElementById("minutes").innerHTML = "";
-    document.getElementById("seconds").innerHTML = "TIME'S UP";
+    document.getElementById("seconds").innerHTML = "TODAY'S THE DAY!";
   }
 }, 1000);
