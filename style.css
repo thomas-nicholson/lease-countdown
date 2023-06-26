@@ -1,0 +1,52 @@
+body {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+#header {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+#countdown span {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media (min-width: 600px) {
+    #header {
+        font-size: 3em;
+    }
+
+    #countdown span {
+        padding: 20px;
+        font-size: 2em;
+    }
+}
